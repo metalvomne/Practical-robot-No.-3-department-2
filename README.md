@@ -1,1 +1,9 @@
-# Practical-robot-No.-3-department-2
+# Задане слово
+word = "програмування"
+
+# Знаходимо кількість різних символів за допомогою множини (set)
+unique_chars = set(word)
+
+# Виводимо результат
+print("Слово:", word)
+print("Кількість різних символів:", len(unique_chars))
